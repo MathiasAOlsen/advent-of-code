@@ -1,6 +1,6 @@
 floor = 0
 
-with open('2015\Day1\input.txt') as f:
+with open('2015\inputs\input_1.txt') as f:
     characters = f.read()
 
 # characters = "(())"
