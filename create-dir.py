@@ -6,4 +6,4 @@ for n in range(1,26):
     try:
         os.mkdir(dirmaker)
     except FileExistsError:
-        print("Day already exists")
+        print(f'{dirmaker} already exists')
